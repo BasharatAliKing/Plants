@@ -498,6 +498,9 @@ footer:hover{
        width: 90%;
         margin-left: 10px;
     }
+    #indoor #b img{
+        width: 90%;
+    }
     #indoor #b h1{
         padding-top: 20px;
     }
@@ -559,11 +562,15 @@ footer:hover{
     #blog img{
         width: 100%;
     }
+    #blog .b {
+        margin-left: 0px;
+    }
     #contact{
         padding: 50px 10px;
     }
     #contact .cards{
         display: inline-block;
+        width: 80%;
     }
     #contact .cards .card {
        
@@ -571,16 +578,20 @@ footer:hover{
     }
     #footer .footer-logo{
         display: inline-block;
+        padding: 30px 10px;
     }
     #footer .footer-logo .right {
         margin-top: 50px;
         position: absolute;
-        right: 50px;
+        right: 0px;
     }
     #footer .about{
         display: inline-block;
         padding: 30px 10px;
         margin-top: 50px;
+    }
+    #footer .about .card{
+        padding: 0px;
     }
     footer {
         padding: 50px 10px;
