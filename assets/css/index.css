@@ -447,7 +447,7 @@ footer:hover{
         display: none;
     }
     #home h1 {
-        margin-top: -10px;
+        margin-top: -20px;
     }
     #home #upper {
         padding: 15px 10px;
@@ -484,6 +484,10 @@ footer:hover{
     }
     #indoor #a{
         width: 100%;
+    }
+    #indoor #a button {
+        padding: 10px 20px;
+        font-size: 16px;
     }
     #indoor #a .text {
         margin-left: 10px;
@@ -597,7 +601,7 @@ footer:hover{
     }
     #contact .cards .card {
         margin-top: 20px;     
-        margin-left: -10px;
+        margin-left: -20px;
     }
   
     #footer .footer-logo{
@@ -618,8 +622,9 @@ footer:hover{
         padding: 0px;
     }
     footer {
-        padding: 50px 10px;
+        padding: 20px 10px;
         font-size: 15px;
+        background-color: #011a0e;
     }
 
 
