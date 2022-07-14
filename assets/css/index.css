@@ -1,0 +1,585 @@
+*{
+    margin: 0px;
+}
+#header{
+    padding: 15px 100px;
+    background-color: white;
+}
+#header .left{
+    position: absolute;
+}
+#header .right{
+    position: absolute;
+    right: 150px;
+}
+#header ul{
+    display: flex;
+    margin-top: 15px;
+}
+#header ul li{
+    display: flex;
+}
+#header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+#header ul li a:hover{
+    color: #2f8d5f;
+}
+#header ul li a.active{
+    color:#2f8d5f;
+}
+
+.mySlides {display:none;}
+#home{
+    margin-top: 60px;
+}
+#home #upper{
+    position: absolute;
+    z-index: 1;
+    padding: 15px 100px;
+}
+#home h1{
+    margin-top: 130px;
+}
+h1{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    margin-top: 50px;
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2f8d5f;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+button:hover{
+    transition: .9s;
+    background-color: black;
+}
+#best{
+    margin: 50px 100px;
+    display: flex;
+}
+#best .b{
+    margin-left: 80px;
+}
+#best .b img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#indoor{
+    margin: 50px 100px;
+    margin-top: 100px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+#indoor #a{
+    width: 50%;
+    border-radius: 20px;
+}
+#indoor #a .king{
+    display: flex;
+    background-color: rgba(236, 248, 247, 1);
+    border-radius: 20px;
+    padding: 60px;
+}
+#indoor #a .lore{
+    margin-top: 30px;
+    display: flex;
+    background-color: rgba(236, 248, 247, 1);
+    border-radius: 20px;
+    padding: 60px;
+}
+#indoor #a .text{
+    margin-left: 30px;
+    font-weight: 200;
+}
+#indoor #a .text h2{
+    margin: 0px;
+    font-weight: 600;
+}
+#indoor #a button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+#indoor #b{
+    width: 50%;
+    background-color: rgba(236, 248, 247, 1);
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+#indoor #b button{
+    margin-top: 20px;
+}
+
+#bring{
+    margin-top: 50px;
+    padding: 50px 100px;
+    display: flex;
+    
+    background-color: rgba(236, 248, 247, 1);
+
+
+}
+#bring .a .card{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 15px 40px; 
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#bring .a h3{
+    font-weight: 500;
+}
+#bring .a #card-1, #card-2{
+    display: flex;
+    margin-top: 20px;
+}
+
+#kind{
+    display: flex;
+     padding: 30px 100px;
+     background:url('/assets/pics/section4-bg.jpg')no-repeat center center/cover;
+     opacity: 0.9;
+     z-index: -1;
+     color: white;
+     height: 60%;
+}
+#kind .a{
+    width: 50%;
+}
+#kind .media{
+    display: flex;
+    margin-top: 20px;
+}
+#kind img{
+    width: 18%;
+}
+#kind .text{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#kind .text h3,p{
+    margin: 0px;
+}
+#kind .b{
+    margin-left: 50px;
+}
+#kind .b .media{
+    padding: 30px;
+    width: 120%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    box-shadow: 0px 0px 40px #7a7a7a;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 1);
+}
+#kind .b .media .text{
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#category{
+    text-align: center;
+    margin: 80px 100px;
+}
+#category h1,h2{
+    margin: 0px;
+}
+#category h2{
+    font-family: 'Poppins', sans-serif;
+    color: #2f8d5f;
+    font-weight: 500;
+}
+#category img{
+    border-radius: 10px;
+    box-shadow: 0 0 22px rgb(0 0 0 / 8%);
+    display: block;
+    width: 100%;
+    transition: all 0.2s;
+}
+#category #card-1{
+    display: flex;
+    margin-top: 30px;
+}
+#category #card-1 .card{
+ margin-left: 20px;
+}
+#category #card-1 .card span{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 10;
+    background-color: #2f8d5f;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+#category .para{
+    display: flex;
+    text-align: center;
+}
+#category #card-1 .card .text{
+    text-align: center;
+}
+#category s{
+    font-family: 'Poppins', sans-serif;
+    color: #7a7a7a;
+    font-size: 17px;
+    margin-left: 60px;
+}
+
+#deal{
+    margin-top: 70px;
+    padding: 30px 100px;
+    background-color: rgba(243, 252, 251, 1);
+    display: flex;
+}
+#deal .b{
+    margin-left: 50px;
+}
+#deal .b p,h2{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#deal .b s{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    color: #7a7a7a;
+}
+
+#blog{
+    margin: 80px 100px;
+    text-align: center;
+}
+#blog #blog-1{
+    display: flex;
+    margin-top: 30px;
+    text-align: start;
+}
+#blog p{
+ color: #2f8d5f;
+ font-weight: 600;
+}
+#blog h1{
+    margin: 0px;
+}
+#blog img{
+    border-radius: 20px;
+}
+#blog .a{
+    margin-right: 20px;
+}
+#blog .b{
+    margin-left: 20px;
+}
+#blog #blog-1 h2 a{
+    color: black;
+    text-decoration:none;
+}
+#blog #blog-1 h2 a:hover{
+    transition: .7s;
+   color: #2f8d5f;
+}
+#blog #blog-1 p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+#contact{
+    background-color: rgba(243, 252, 251, 1);
+    margin-top: 100px;
+    padding: 50px 100px;
+    text-align: center;
+}
+#contact h1{
+    margin: 0px;
+}
+#contact h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    color: #2f8d5f;
+}
+#contact .cards{
+    display: flex;
+    margin-top: 40px;
+}
+#contact .cards .card{
+    background-color: white;
+    width: 100%;
+    padding: 20px; 
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#contact .cards .card h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#footer{
+    background-color: #0d4128;
+    color: white;
+}
+#footer .footer-logo{
+    display: flex;
+    padding: 30px 100px;
+    border-bottom: solid 1px #26543e;
+}
+#footer .footer-logo .right{
+    position: absolute;
+    right: 100px;
+    
+}
+#footer .footer-logo .right i{
+    font-size: 22px;
+    background: #151515;
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#footer .footer-logo .right i:hover{
+    background-color: white;
+    color: #151515;
+    transition: .5s;
+}
+#footer .about{
+    padding: 30px 100px;
+    display: flex;
+    border-bottom: solid 1px #26543e;
+}
+#footer .about .card{
+  width: 100%;
+ padding: 10px;
+}
+#footer .about .card h2{
+    font-size: 30px;
+  font-weight: 700;
+}
+#footer .about .card p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #bdbdbd;
+}
+#footer .about .card ul{
+    padding: 0px;
+}
+#footer .about .card ul li{
+    display: flex;
+}
+#footer .about .card ul li a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+#footer .about .card ul li a i{
+    font-size: 13px;
+   margin-top: 6px;
+   margin-right: 4px;
+}
+#footer .about .card ul li a:hover{
+    color: white;
+}
+#footer .about .card ul li .active{
+    color: white;
+}
+
+footer{
+    padding: 50px 100px;
+    font-family: 'Poppins', sans-serif;
+    color: #bdbdbd;
+}
+footer:hover{
+    color: white;
+    transition: .8s;
+}
+
+
+
+
+@media(max-width:576px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    #header{
+        padding: 20px 10px;
+    }
+    #header .right{
+        display: none;
+    }
+    #home h1 {
+        margin-top: -10px;
+    }
+    #home #upper {
+        padding: 15px 10px;
+    }
+    #home #upper button{
+        margin-top: 7px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #best {
+        display: inline-block;
+        margin: 50px 10px;
+    }
+    #best .a {
+        text-align: center;
+    }
+    #best img{
+        width: 60%;
+    }
+    #best .b {
+        margin-left: 20px;
+        text-align: center;
+    }
+   
+    #best .b img {
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 70%;
+    }
+    #indoor {
+        display: inline-block;
+        margin: 50px 10px;
+        width: 100%;
+    }
+    #indoor #a{
+        width: 100%;
+    }
+    #indoor #a .king{
+        width: 100%;
+        padding: 30px;
+    }
+    #indoor #a img{
+        width: 50%;
+    }
+    #indoor #a .lore{
+        width: 100%;
+        padding: 30px;
+    }
+    #indoor .king .text{
+        margin-left: 0px;
+    }
+    #indoor #b {
+       width: 100%;
+        margin-left: 10px;
+    }
+    #indoor #b h1{
+        padding-top: 20px;
+    }
+    #bring {
+        display: inline-block;
+        padding: 50px 10px;
+    }
+    #bring .a #card-1{
+        display: inline-block;
+    }
+    #bring .a #card-2{
+        display: inline-block;
+    }
+    #kind .b {
+        margin-left: 10px;
+    }
+    #kind .b .media{
+        width: 100%;
+    }
+    #bring .b img{
+        width: 100%;
+    }
+    #kind {
+        display: inline-block;
+        padding: 50px 10px;
+        width: 100%;
+    }
+    #kind .a{
+        width: 100%;
+    }
+    #category{
+        margin: 50px 10px;
+    }
+    #category #category-1 {
+        display: inline-block;
+    }
+    #category  #cards #card-1 {
+        display: inline-block;
+    }
+    #deal{
+        width: 100%;
+        display: inline-block;
+       padding: 30px 10px;
+    }
+    #deal .a img{
+        width: 100%;
+    }
+    #blog{
+        margin: 50px 10px;
+    }
+    #blog #blog-1{
+        display:inline-block;
+    }
+    #blog img{
+        width: 100%;
+    }
+    #contact{
+        padding: 50px 10px;
+    }
+    #contact .cards{
+        display: inline-block;
+    }
+    #contact .cards .card {
+       
+        margin-left: 0px;
+    }
+    #footer .footer-logo{
+        display: inline-block;
+    }
+    #footer .footer-logo .right {
+        margin-top: 50px;
+        position: absolute;
+        right: 50px;
+    }
+    #footer .about{
+        display: inline-block;
+        padding: 30px 10px;
+        margin-top: 50px;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+
+
+}
