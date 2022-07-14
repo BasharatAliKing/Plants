@@ -441,7 +441,11 @@ footer:hover{
         border-radius: 30px;
     }
     #header{
-        padding: 20px 10px;
+        padding: 1px 10px;
+    }
+    #header img{
+        margin-top: 10px;
+        width:80%;
     }
     #header .right{
         display: none;
@@ -521,15 +525,21 @@ footer:hover{
         padding: 50px 10px;
     }
     #bring .a .card {
-        width: 90%;
+        width: 100%;
+        margin-left: 0px;
         margin-top: 20px;
         padding: 15px 30px;
     }
     #bring .a #card-1{
         display: inline-block;
+        margin-left: 40px;
     }
     #bring .a #card-2{
         display: inline-block;
+        margin-left: 40px;
+    }
+    #bring .a #card-2 .card{
+        width: 93%;
     }
     #kind .b {
         margin-left: 10px;
