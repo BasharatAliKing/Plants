@@ -481,21 +481,21 @@ footer:hover{
         width: 100%;
     }
     #indoor #a .king{
-        width: 100%;
+        width: 70%;
         padding: 30px;
     }
     #indoor #a img{
         width: 50%;
     }
     #indoor #a .lore{
-        width: 100%;
+        width: 70%;
         padding: 30px;
     }
     #indoor .king .text{
         margin-left: 0px;
     }
     #indoor #b {
-       width: 100%;
+       width: 90%;
         margin-left: 10px;
     }
     #indoor #b h1{
@@ -504,6 +504,10 @@ footer:hover{
     #bring {
         display: inline-block;
         padding: 50px 10px;
+    }
+    #bring .a .card {
+        width: 90%;
+        padding: 15px 30px;
     }
     #bring .a #card-1{
         display: inline-block;
