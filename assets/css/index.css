@@ -463,7 +463,7 @@ footer:hover{
         width: 60%;
     }
     #best .b {
-        margin-left: 20px;
+        margin-left: 0px;
         text-align: center;
     }
    
@@ -480,15 +480,18 @@ footer:hover{
     #indoor #a{
         width: 100%;
     }
+    #indoor #a .text {
+        margin-left: 10px;
+    }
     #indoor #a .king{
-        width: 70%;
+        width: 75%;
         padding: 30px;
     }
     #indoor #a img{
         width: 50%;
     }
     #indoor #a .lore{
-        width: 70%;
+        width: 75%;
         padding: 30px;
     }
     #indoor .king .text{
@@ -510,6 +513,7 @@ footer:hover{
     }
     #bring .a .card {
         width: 90%;
+        margin-top: 20px;
         padding: 15px 30px;
     }
     #bring .a #card-1{
@@ -520,9 +524,13 @@ footer:hover{
     }
     #kind .b {
         margin-left: 10px;
+        margin-top: 30px;
+    }
+    #kind .text {
+        margin-top: 0px;
     }
     #kind .b .media{
-        width: 80%;
+        width: 87%;
         padding: 15px;
     }
     #bring .b img{
@@ -545,6 +553,10 @@ footer:hover{
     #category  #cards #card-1 {
         display: inline-block;
     }
+    #category #card-1 .card {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     #deal{
         width: 94%;
         display: inline-block;
@@ -552,6 +564,9 @@ footer:hover{
     }
     #deal .a img{
         width: 100%;
+    }
+    #deal .b {
+        margin-left: 10px;
     }
     #blog{
         margin: 50px 10px;
@@ -561,6 +576,9 @@ footer:hover{
     }
     #blog img{
         width: 100%;
+    }
+    #blog .a {
+        margin-right: 0px;
     }
     #blog .b {
         margin-left: 0px;
@@ -573,9 +591,10 @@ footer:hover{
         width: 80%;
     }
     #contact .cards .card {
-       
-        margin-left: 0px;
+        margin-top: 20px;     
+        margin-left: -10px;
     }
+  
     #footer .footer-logo{
         display: inline-block;
         padding: 30px 10px;
@@ -595,6 +614,7 @@ footer:hover{
     }
     footer {
         padding: 50px 10px;
+        font-size: 15px;
     }
 
 
