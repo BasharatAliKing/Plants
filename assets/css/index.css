@@ -486,6 +486,7 @@ footer:hover{
          right: 20px;
          color: white;
          font-size: 22px;
+         font-weight: 600;
          font-family: 'Poppins', sans-serif;
     }
     #head #side ul{
@@ -508,6 +509,9 @@ footer:hover{
     }
     #head #side ul li a.active{
         color:#2f8d5f;
+    }
+    #head #side ul li a img{
+        width: 50%;
     }
     #header .right{
         display: none;
