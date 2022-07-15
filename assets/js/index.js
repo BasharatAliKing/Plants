@@ -23,7 +23,7 @@ close.addEventListener("click",closeside);
 function sidebarclick(){
   console.log("Clicked...");
    head.appendChild(side);
-   console.log(head)
+  //  console.log(head);
 }
 function closeside(){
   console.log("clicked...");
